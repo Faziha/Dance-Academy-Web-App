@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,600&family=Playfair+Display:ital@1&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 28px;
+    margin-right: 40px;
+}
+
+#logo img{
+    height: 42px;
+    filter: invert(1);
+}
+
+#navbar{
+    background-color: rgb(50, 33, 70);
+    padding: 18px 14px;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+   /* justify-content: center;*/
+   align-items: center;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 7px 11px;
+    color: white;
+    font-size: 20px;
+}
+
+#navbar li a:hover{
+    color: rgb(175, 159, 159);
+    font-weight: bold;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#introSection{
+    background: center / cover no-repeat url("/static/dance.jpg");
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    height: 425px;
+    background-color: red;
+}
+
+#introSection div.small{
+    font-size: 27px;
+    padding: 5px;
+} 
+
+#sponsorsSection{
+    height: 300px;
+    background-color: rgb(177, 136, 179);
+}
+
+#sponsorsSection h2{
+    font-size: 36px;
+    text-align: center;
+    padding-top: 12px;
+}
+
+#sponsors{
+    height: 192px;
+    max-width: 1000px;
+    margin: 27px auto;
+}
+
+.spImage{
+    height: 80%;
+    margin: 20px;
+}
+
+#footer{
+    color: white;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+} 
+
+#missionSection h2{
+    text-align: center;
+    padding-top: 12px;
+    font-size: 36px;
+}
+
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    width: 27%;
+    margin: 23px 25px;
+    height: 210px;
+    padding-top: 2px;
+    background-color: rgb(161, 130, 130);
+}
+
+
+#missionSection{
+    height: 326px;
+    margin: auto;
+    width: 100%;
+    display: block;
+    background-color: rgb(77, 46, 46);
+    color: white;
+}
+
+.card h3{
+    text-align: center;
+    margin: 0 12px;
+    margin-top: 24px;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    height: 110px;
+    padding: 0 14px;
+    margin: 2px 3px;
+}
+
+.card-content{
+    padding: 0px 10px;
+}
+
+.card-content p{
+    font-size: 18px;
+}
+
+.card-img img{
+    height: inherit;
+}
+

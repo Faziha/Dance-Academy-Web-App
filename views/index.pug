@@ -1,0 +1,63 @@
+//- index.pug
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul
+            div#logo 
+                img(src="/static/1.png")
+                | HDA
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Contact Us]
+
+    section#introSection 
+        div Welcome to Faziha's Dance Academy
+        div.small Eat Sleep Dance Repeat
+
+    section#missionSection 
+        h2 Our mission
+        div.card 
+            h3 Dance perfection
+            div.card-box 
+                div.card-img 
+                    img(src="/static/1.png")
+                
+                div.card-content 
+                    p This is the best dance academy on this universe
+        div.card 
+            h3 Dance the way you like
+            div.card-box 
+                div.card-img 
+                    img(src="/static/1.png")
+                
+                div.card-content 
+                    p This is the best dance academy on this universe
+        div.card 
+            h3 Expert teaching
+            div.card-box 
+                div.card-img 
+                    img(src="/static/1.png")
+                
+                div.card-content 
+                    p This is the best dance academy on this universe
+
+    section#sponsorsSection 
+        h2 Our sponsors
+        div#sponsors 
+            img(src="/static/p1.png",alt="Sponsor Image", class="spImage")
+            img(src="/static/p2.png",alt="Sponsor Image", class="spImage")
+            img(src="/static/p3.png",alt="Sponsor Image", class="spImage")
+            img(src="/static/p4.png",alt="Sponsor Image", class="spImage")
+
+    footer#footer 
+        | Copyright © 2023 FazihaDanceAcademy.com | All rights reserved
+    
+
+    script
+      include ../static/index.js
